@@ -1,0 +1,218 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.header-container {
+    max-width: 1536px; /* Adjusted to the width of your image */
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.tagline p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.about {
+    background-color: white;
+    padding: 50px 20px;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-image img {
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.about-text {
+    max-width: 800px;
+}
+
+.about-text h2 {
+    margin-top: 0;
+}
+
+.about-text p {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.skills {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+.skills-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skills h2 {
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.projects {
+    background-color: white;
+    padding: 50px 20px;
+}
+
+.projects-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 800px; /* Adjusted to the width of your project images */
+    height: 500px; /* Adjusted to the height of your project images */
+    /* object-fit: cover; */
+    margin-right: 20px;
+}
+
+.project-info {
+    max-width: 800px;
+}
+
+.project-info h3 {
+    margin-top: 0;
+}
+
+.project-info p {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/* Optional: Style for the logo image if you have one */
+.logo img {
+    max-height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.resume {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.resume-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.resume h2 {
+    margin-bottom: 20px;
+}
+
+.resume a {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+}
+
+.contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
